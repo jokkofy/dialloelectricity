@@ -2,30 +2,25 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8" />
-  <title>Boutique Diallo</title>
+  <title>Boutique Diallo Electricity</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <style>
     html, body {
       margin: 0;
       padding: 0;
-      width: 100%;
       height: 100%;
-      overflow: hidden; /* bloque le scroll horizontal ET vertical */
+      width: 100%;
+      overflow: hidden; /* empêche tout défilement inutile */
     }
     iframe {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
+      width: 100vw;      /* occupe toute la largeur de la fenêtre */
+      height: 100vh;     /* occupe toute la hauteur */
       border: none;
-      overflow: hidden;
+      display: block;    /* évite les marges fantômes du inline element */
     }
   </style>
 </head>
 <body>
-  <iframe
-    src="https://jokkofy.com/boutique/Diallo-boutique-815rd"
-  ></iframe>
+  <iframe src="https://jokkofy.com/boutique/Diallo-Electricity-wk3zi"></iframe>
 </body>
 </html>
